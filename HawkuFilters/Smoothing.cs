@@ -33,7 +33,6 @@ namespace TabletDriverFilters.Hawku
         private const float THRESHOLD = 0.63f;
         private float timerInterval => 1000 / Frequency;
 
-
         private float weight;
         private DateTime? lastFilterTime;
         private Vector3 mmScale;
