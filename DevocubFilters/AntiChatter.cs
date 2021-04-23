@@ -160,7 +160,7 @@ namespace TabletDriverFilters.Devocub
                 State = report;
             }
 
-            if (PenIsInRange())
+            if (PenIsInRange() || State is not ITabletReport)
             {
                 OnEmit();
             }
